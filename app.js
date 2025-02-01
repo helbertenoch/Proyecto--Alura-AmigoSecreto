@@ -16,13 +16,10 @@ function agregarAmigo() {
 }
 
 function mostrarAmigos(amigos) {
-    let listaAmigos = asignarTextoElemento("listaAmigos", amigos)
-
+    //let listaAmigos = asignarTextoElemento("listaAmigos", amigos)
+    
     for (let i = 0, len = amigos.length; i < len; i++) {
-        let amigo = amigos[i];
-        let elemento = document.createElement('li');
-        elemento.textContent = amigo;
-        elemento.id = `amigo${i}`;
+        let listaAmigos = asignarTextoElemento("listaAmigos", amigos)
     }
 }
 
@@ -35,3 +32,13 @@ function asignarTextoElemento(elemento, texto) {
 function limpiarCaja() {
     document.querySelector('#amigo').value = '';
 }
+
+function sortearAmigo() {
+    let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
+    console.log(amigoSorteado);
+    let elementoHTML = document.getElementById('resultado');
+    elementoHTML.innerHTML = `El amigo sorteado es:  ${amigoSorteado}`;
+    return;
+}
+
+
