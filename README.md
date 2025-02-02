@@ -1,7 +1,6 @@
 # 🎁 Amigo Secreto
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
-[![Security Status](https://img.shields.io/badge/security-audited-green.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
 ## 📋 Índice
