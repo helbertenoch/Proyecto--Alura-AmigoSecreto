@@ -37,13 +37,10 @@ Amigo Secreto es una aplicación web segura y eficiente diseñada para facilitar
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/usuario/amigo-secreto.git
+git clone https://github.com/helbertenoch/Proyecto--Alura-AmigoSecreto.git
 
 # Navegar al directorio
-cd amigo-secreto
-
-# Instalar dependencias
-pip install -r requirements.txt
+cd Proyecto--Alura-AmigoSecreto
 
 # Iniciar la aplicación
 python app.py
